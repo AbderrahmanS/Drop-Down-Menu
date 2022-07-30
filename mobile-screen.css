@@ -1,0 +1,74 @@
+
+.mobile-screen {
+    display: block;
+}
+.desk-screen{
+    display: none;
+}
+.mobile-screen h1 {
+    padding: 20px;
+}
+
+.mobile-screen nav {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.super-container {
+    display: none;
+    position: relative;
+    left: 20vw;
+}
+.bar i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.bar:hover i {
+    color: cyan;
+    font-weight: bold;
+} 
+
+.sub-sub-container-list {
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+}
+
+.sub-container i {
+    position: absolute;
+    left: 63vw;
+}
+.title {
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    cursor: pointer;
+    border-top: 2px solid black;
+}
+/* .sub-container:nth-child(1) .title {
+    border-bottom: 2px solid black;
+} */
+.title:hover {
+    color: cyan;
+    font-weight: bold;
+}
+
+.sub-ul-container {
+    display: none;
+}
+
+.sub-sub-container-list:hover .link,
+.sub-ul-container-css-pr .sub-sub-container-list:hover a {
+    color: cyan;
+    font-weight: bold;
+}
+
+.sub-ul-container-css-pr {
+    display: none;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#cssProject {
+    cursor: pointer;
+}

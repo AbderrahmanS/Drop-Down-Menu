@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9c01d01910.js" crossorigin="anonymous"></script>  
+    <title>Drop-Down</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-screen.css" media="(max-width: 800px)">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <header class="desk-screen">
+        <h1>Logo</h1>
+        <ul class="super-ul">
+            <li class="sub-list">
+                <a class="sub-link" href="">HTML</a>
+                <ul class="sub-ul">
+                    <li class="sub-sub-list"><a href="">Full course</a></li>
+                    <li class="sub-sub-list"><a href="">Crash course</a></li>
+                    <li class="sub-sub-list"><a href="">Project example</a></li>
+                </ul>
+            </li>
+            <li class="sub-list">
+                <a class="sub-link" href="">CSS</a>
+                <ul class="sub-ul sub-ul2">
+                    <li class="sub-sub-list"><a href="">Full course</a></li>
+                    <li class="sub-sub-list"><a href="">Crash course</a></li>
+                    <li class="sub-sub-list sub-sub-list-css-pr">
+                        <a href="">Project example &nbsp;+</a>
+                        <ul class="sub-ul-css-pr">
+                            <li class="sub-sub-list"><a href="">Animation project </a></li>
+                            <li class="sub-sub-list"><a href="">Transition project</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-list">
+                <a class="sub-link" href="">JavaScript</a>
+                <ul class="sub-ul sub-ul3">
+                    <li class="sub-sub-list"><a href="">Comming soon&#128293; </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <header class="mobile-screen">
+        <nav>
+            <h1>Logo for mobile</h1>
+            <div class="bar"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <div class="super-container">
+            <div class="sub-container">
+                <div class="title">HTML <i class="fa-solid fa-plus"></i></div>
+                <ul class="sub-ul-container">
+                    <li class="sub-sub-container-list"><a class="link" href="">Full course</a></li>
+                    <li class="sub-sub-container-list"><a class="link" href="">Crash course</a></li>
+                    <li class="sub-sub-container-list"><a class="link" href="">Project example</a></li>
+                </ul>
+            </div>
+
+            <div class="sub-container">
+                <div class="title">CSS <i class="fa-solid fa-plus"></i></div>
+                <ul class="sub-ul-container">
+                    <li class="sub-sub-container-list"><a class="link" href="">Full course</a></li>
+                    <li class="sub-sub-container-list"><a class="link" href="">Crash course</a></li>
+                    <li class="sub-sub-container-list">
+                        <a class="link" id="cssProject" >Project example <i class="fa-solid fa-plus"></i></a>
+                        <ul class="sub-ul-container-css-pr">
+                            <li class="sub-sub-container-list"><a href="">Animation project </a></li>
+                            <li class="sub-sub-container-list"><a href="">Transition project</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sub-container">
+                <div class="title">JavaScript <i class="fa-solid fa-plus"></i></div>
+                <ul class="sub-ul-container">
+                    <li class="sub-sub-container-list"><a class="link" href="">Comming soon&#128293;</a></li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </header>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

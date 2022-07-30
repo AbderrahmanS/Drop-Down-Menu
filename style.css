@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #1b1b1b;
+    color: white;
+}
+.mobile-screen{
+    display: none;
+}
+
+
+.desk-screen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desk-screen h1 {
+    padding: 20px;
+}
+
+.super-ul {
+    display: flex;
+    position: relative;
+
+}
+.sub-list {
+    padding: 30px;
+    margin-right: 5rem;
+}
+.sub-link {
+    padding: 10px;
+}
+
+.sub-list:hover .sub-link {
+    color: cyan;
+    box-shadow: 0 0 5px cyan;
+    border-radius: 5px;
+}
+
+.sub-list .sub-sub-list a:hover {
+    color: cyan;
+    font-weight: bold;
+}
+
+
+.sub-ul {
+    display: none;
+}
+
+.sub-ul {
+    position: absolute;
+    top: 78px;
+    left: -14px;
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    border-top: 1px solid cyan;
+    border-radius: 5px;
+}
+.sub-sub-list {
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.sub-ul2 {
+    left: 186px;
+}
+.sub-ul3 {
+    left: 402px;
+}
+
+.sub-list:hover .sub-ul {
+    display: block;
+}
+
+.sub-ul-css-pr {
+    position: absolute;
+    background-color: #1b1b1b;
+    padding: 10px;
+    border-radius: 5px;
+    top: 87px;
+    left: 154px;
+    border-top: none;
+    display: none;
+    
+}
+
+.sub-list .sub-sub-list-css-pr:hover .sub-ul-css-pr {
+    display: block;
+}
+
